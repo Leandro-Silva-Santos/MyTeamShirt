@@ -17,22 +17,27 @@
       href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/inicio.css" />
+    <link rel="stylesheet" href="css/camisas.css".css">
   </head>
   <body>
     <div class="container">
       <header>
-        <div class="logo">My Team Shirt</div>
+        <div class="logo">Team Shirt</div>
         <div class="menu">
-          <a href="#">Camisas</a>
-          <a href="#">Treino</a>
-          <a href="#">Calçados</a>
+          <a href="">Camisas</a>
+          <a href="">Acessórios</a>
+          <a href="">Calçados</a>
         </div>
         <div class="search">
           <button>
-              <i class="fas fa-search"></i>
+            <i class="fas fa-search"></i>
           </button>
-          <input type="text"/>
+          <input type="text" />
         </div>
         <div class="car">
           <button>
@@ -40,6 +45,66 @@
           </button>
         </div>
       </header>
+
+      <main>
+        <div class="inicio">
+          <img src="img/bg.jpg" alt="bg" />
+        </div>
+        <div class="banner">
+          <h1>Team Shirt</h1>
+          <p>
+            O manto do seu time do coração, camisetas, chuteiras, tênis e
+            vários acessórios. Isso e muito mais você encontra aqui
+            na Team Shirt!
+          </p>
+        </div>
+      </main>
+
+      <div class="sessao-camisas">
+        <div class="div-filtro">
+          <h2>Gênero</h2>
+          <div class="genero">
+            <input type="checkbox" id="M" name="Masculino" checked>
+            <label for="Masculino">Masculino</label>
+            <input type="checkbox" id="F" name="Feminino">
+            <label for="Feminino">Feminino</label>
+          </div>
+          <div class="marcas">
+            <h2>Marcas</h2>
+            <div class="checkbox-marcas">
+              <input type="checkbox" name="adidas" id="adidas">
+              <label for="adidas">Adidas</label><br>
+              <input type="checkbox" name="nike" id="nike">
+              <label for="nike">Nike</label><br>
+              <input type="checkbox" name="puma" id="puma">
+              <label for="puma">Puma</label><br>
+              <input type="checkbox" name="umbro" id="umbro">
+              <label for="umbro">Umbro</label><br>
+              <input type="checkbox" name="penalty" id="penalty">
+              <label for="penalty">Penalty</label><br>
+              <input type="checkbox" name="oakley" id="oakley">
+              <label for="oakley">Oakley</label><br>
+              <input type="checkbox" name="fila" id="fila">
+              <label for="fila">Fila</label><br>
+              <input type="checkbox" name="topper" id="topper">
+              <label for="topper">Topper</label><br>
+            </div>
+          </div>
+          <div class="preco">
+            <h2>Preços</h2>
+            <div class="checkbox-preco">
+              <input type="checkbox" name="" id="100">
+              <label for="100">Até R$ 100,00</label><br>
+              <input type="checkbox" name="" id="300">
+              <label for="300">Até R$ 300,00</label><br>
+              <input type="checkbox" name="" id="500">
+              <label for="500">Até R$ 500,00</label><br>
+              <input type="checkbox" name="" id="500+">
+              <label for="500+">Mais de R$ 500,00</label><br>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

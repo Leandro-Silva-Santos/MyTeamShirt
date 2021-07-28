@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.sessao-camisas{
+    height: 556px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.div-filtro{
+    height: 100%;
+    width: 20%;
+    border-right: 2px solid #DDB771;
+    background-color: #073B3A;
+}
+
+.div-filtro h2{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #DDB771;
+    margin-bottom: 10px;
+}
+
+.div-filtro .genero{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #DDB771;
+    border-radius: 10px;
+}
+
+.checkbox-marcas{
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #DDB771;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.preco h2{
+    margin-bottom: 30px;
+}
+
+.preco .checkbox-preco{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid #DDB771;
+    border-radius: 10px;
+    background-color: #fff;
+}

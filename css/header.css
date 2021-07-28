@@ -9,12 +9,18 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    width: 100%;
     background-color: #073B3A;
+    border-bottom: 1px solid #DDB771;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
 }
 header .logo{
     margin-left: 40px;
     margin-right: 50px;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-family: 'Ruslan Display', cursive;
     color: #DDB771;
     cursor: pointer;
@@ -23,12 +29,13 @@ header .logo{
 .menu a{
     margin-right: 15px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: #fff;
 }
 .menu a:hover{
     color: #DDB771;
+    transition: .3s;
 }
 
 .search{
@@ -70,4 +77,8 @@ header .logo{
 }
 .car button i{
     font-size: 1.6rem;
+}
+.car button i:hover{
+    color: #DDB771;
+    transition: .4s;
 }
